@@ -1,0 +1,123 @@
+.about--container {
+	background: $black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: $xl-size $m-size;
+	overflow: hidden;
+}
+
+.about--description,
+.about--frontend,
+.about--backend {
+	width: 25vw;
+	height: 60vh;
+	background-color: $lightBlack;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	border-radius: $xs-size;
+	border: solid $xs-size $greenBlue;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.about--container .fas {
+	font-size: $l-size;
+	color: #fff;
+	position: absolute;
+	top: -50px;
+	border: solid $xs-size $greenBlue;
+	padding: $s-size;
+	border-radius: 50%;
+	background-color: $greenBlue;
+	color: $black;
+}
+
+.about--description_content,
+.about--frontend_content,
+.about--backend_content {
+	padding: $l-size $s-size;
+}
+
+.about--description_content h2,
+.about--frontend_content h2,
+.about--backend_content h2 {
+	text-align: center;
+	margin-top: $xs-size;
+	font-family: $roboto;
+	color: #fff;
+	font-size: $s-size;
+	text-transform: uppercase;
+	letter-spacing: $xs-size;
+}
+
+.about-bullets {
+	list-style-type: none;
+	font-family: $roboto;
+	color: #fff;
+	font-size: $s-size;
+	margin: $m-size $xs-size;
+	text-align: justify;
+}
+
+.fa-arrow-alt-circle-right {
+	margin-right: $xs-size;
+}
+
+.about-frontend,
+.about-backend {
+	list-style-type: none;
+	font-family: $roboto;
+	color: #fff;
+	font-size: $s-size;
+	text-align: justify;
+}
+
+.about--frontend_content,
+.about--backend_content {
+	width: 100%;
+}
+
+.about--frontend_list,
+.about--backend_list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: $xs-size $xl-size 0;
+	height: 100%;
+	flex-wrap: wrap;
+}
+
+.about--frontend:hover,
+.about--backend:hover {
+	box-shadow: 0 $s-size 20px $greenBlue;
+}
+
+.social--container {
+	position: absolute;
+	top: 90%;
+	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 999;
+}
+
+.social--container .fab {
+	font-size: $l-size;
+	margin: 0 $m-size;
+	z-index: 999;
+	color: #fff;
+	border: solid $xs-size $greenBlue;
+	background-color: $lightBlack;
+	padding: $xs-size;
+	border-radius: $xs-size;
+	z-index: 1000;
+	transition: 0.3s ease;
+}
+
+.social--container .fab:hover {
+	transform: scale(1.1);
+}

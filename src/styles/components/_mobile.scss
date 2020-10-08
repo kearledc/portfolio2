@@ -1,0 +1,155 @@
+@media (max-width: 768px) {
+	.home--info_container .home--header {
+		font-size: $s-size;
+	}
+
+	div.about--container {
+		flex-direction: column;
+	}
+
+	div.about--description,
+	div.about--frontend,
+	div.about--backend {
+		width: 90vw;
+		margin-bottom: 6rem;
+	}
+
+	div.projects--container {
+		background: $black;
+		height: 320vh;
+	}
+
+	div.projects--card_container {
+		height: 100%;
+		background-color: $lightBackground;
+		border-radius: $s-size;
+	}
+
+	div.projects--card_container h2 {
+		color: #000;
+	}
+
+	div.projects--deployed_container {
+		flex-direction: column;
+	}
+
+	div.project__card {
+		width: 100%;
+		margin-bottom: 6rem;
+	}
+
+	img.projects__image {
+		width: 100%;
+		max-width: 80vw;
+		max-height: 40vh;
+		height: 40vh;
+	}
+
+	div.project__hover-container {
+		max-width: 80vw;
+		width: 100%;
+	}
+
+	button.project__hover-button {
+		width: 20vw;
+		height: 10vh;
+	}
+}
+
+@media (max-width: 425px) {
+	div.home--image {
+		height: 100vh;
+	}
+
+	div.home--image::before {
+		height: 100vh;
+	}
+	div.home--info_container {
+		height: 30vh;
+		width: 90vw;
+		margin-top: 0vh;
+	}
+
+	div.about--description,
+	div.about--frontend,
+	div.about--backend {
+		height: 75vh;
+	}
+
+	div.social--container i.fab {
+		margin: $s-size;
+	}
+
+	div.projects--container {
+		height: 100% !important;
+		padding: $s-size;
+	}
+
+	div.projects--card_container {
+		padding: $xs-size;
+	}
+
+	div.project__card {
+		width: 100%;
+		margin-bottom: 6rem;
+	}
+
+	img.projects__image {
+		width: 100%;
+		max-width: 90vw !important;
+		max-height: 40vh;
+		height: 40vh;
+	}
+
+	div.project__hover-container {
+		max-width: 90vw !important;
+		width: 100%;
+	}
+
+	button.project__hover-button {
+		width: 40vw;
+		height: 10vh;
+	}
+
+	.footer-description {
+		font-size: $s-size;
+	}
+}
+
+@media (max-width: 320px) {
+	div.about--description,
+	div.about--frontend,
+	div.about--backend {
+		margin-bottom: 10rem !important;
+	}
+
+	div.social--container i.fab {
+		margin: $m-size $xs-size !important;
+	}
+
+	ul.about--frontend_list,
+	ul.about--backend_list {
+		margin: 0;
+	}
+
+	div.project__card {
+		max-height: 65vh;
+	}
+
+	div.project__hover-container {
+		max-height: 60vh;
+	}
+
+	img.projects__image {
+		max-height: 20vh;
+	}
+
+	button.project__hover-button {
+		margin-top: $s-size;
+		border-color: $greenBlue;
+	}
+
+	.footer-description {
+		font-size: 14px;
+	}
+}

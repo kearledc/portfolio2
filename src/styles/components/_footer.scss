@@ -1,0 +1,11 @@
+.footer--container {
+	display: flex;
+	justify-content: center;
+	padding: $xs-size;
+	background-color: $black;
+}
+
+.footer-description {
+	font-family: $roboto;
+	color: #fff;
+}
