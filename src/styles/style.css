@@ -505,4 +505,8 @@ ul.about--backend_list {
   margin-top: 1.2rem;
 }
 
+.triviaImage {
+  width: inherit;
+}
+
 /*# sourceMappingURL=style.css.map */

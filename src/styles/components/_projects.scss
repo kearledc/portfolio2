@@ -1,84 +1,88 @@
 .projects--container {
-	background: url("/images/projectbackground.jpg") center center/cover fixed;
-	position: relative;
-	height: 100%;
-	padding: $m-size;
+  background: url("/images/projectbackground.jpg") center center/cover fixed;
+  position: relative;
+  height: 100%;
+  padding: $m-size;
 }
 
 .projects--card_container {
-	display: flex;
-	background-color: $darkBackground;
-	height: 90vh;
-	flex-direction: column;
-	padding: $m-size;
+  display: flex;
+  background-color: $darkBackground;
+  height: 90vh;
+  flex-direction: column;
+  padding: $m-size;
 }
 
 .projects--card_container h2 {
-	text-align: center;
-	margin-top: $xs-size;
-	font-family: $roboto;
-	color: #fff;
-	font-size: $m-size;
-	text-transform: uppercase;
-	letter-spacing: $xs-size;
-	margin-bottom: $m-size;
+  text-align: center;
+  margin-top: $xs-size;
+  font-family: $roboto;
+  color: #fff;
+  font-size: $m-size;
+  text-transform: uppercase;
+  letter-spacing: $xs-size;
+  margin-bottom: $m-size;
 }
 
 .projects--deployed_container {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project__card {
-	border: $xs-size $greenBlue solid;
-	border-radius: $xs-size;
-	width: 25vw;
-	padding: $s-size;
-	background-color: $black;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+  border: $xs-size $greenBlue solid;
+  border-radius: $xs-size;
+  width: 25vw;
+  padding: $s-size;
+  background-color: $black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .projects__image {
-	max-width: 23vw;
-	height: 30vh;
-	max-height: 30vh;
+  max-width: 23vw;
+  height: 30vh;
+  max-height: 30vh;
 }
 
 .project__hover-container {
-	border: solid 3px #fff;
-	max-width: 23vw;
-	width: 23vw;
-	padding: $s-size;
-	position: relative;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	font-family: $roboto;
+  border: solid 3px #fff;
+  max-width: 23vw;
+  width: 23vw;
+  padding: $s-size;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: $roboto;
 }
 
 .project__hover-button {
-	height: $m-size;
-	width: 10vw;
-	margin-top: $m-size;
-	background-color: $lightBlack;
-	border-radius: $xs-size;
-	font-size: $s-size;
-	font-family: $roboto;
-	border: solid $gray $xs-size;
-	color: #fff;
-	cursor: pointer;
-	transition: 0.3s ease;
+  height: $m-size;
+  width: 10vw;
+  margin-top: $m-size;
+  background-color: $lightBlack;
+  border-radius: $xs-size;
+  font-size: $s-size;
+  font-family: $roboto;
+  border: solid $gray $xs-size;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .project__hover-button:hover {
-	background-color: $gray;
-	color: #000;
+  background-color: $gray;
+  color: #000;
 }
 
 .project__description {
-	text-align: justify;
-	margin-top: $s-size;
+  text-align: justify;
+  margin-top: $s-size;
+}
+
+.triviaImage {
+  width: inherit;
 }
