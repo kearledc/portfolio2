@@ -48,7 +48,7 @@ export default () => (
               GraphQL.
             </p>
             <a
-              href="https://kearledc.github.io/indecisionfood"
+              href="https://kearledcexpensify.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
